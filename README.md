@@ -1,0 +1,2 @@
+# Object_detection
+python train_dual.py --workers 8 --batch 4 --img 640 --epochs 2 --data data.yaml --weights yolov9-s.pt --device cpu --cfg C:\Users\raja\Downloads\projects\Object_detection\yolo\models\detect\yolov9_cust.yaml --hyp C:\Users\raja\Downloads\projects\Object_detection\yolo\data\hyps\hyp.scratch-high.yaml
